@@ -1,50 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
- 
+<!--
+    Project:
+    Programmer:
+    LMD:
+-->
 <head>
-<link rel="icon" type="image/x-icon" href="./favicon.ico?v=2">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
  
-    <title>My Website</title>
+ 
+   <link rel="icon" type="image/x-icon" href="./favicon.ico?v=2">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>My ePortfolio</title>
  
     <link rel="stylesheet" href="style.css">
 </head>
  
 <body>
- 
+<!--
+    removing the header as it is not required
     <header>
-<h1>My Website</h1>
-</header>
+        <h1>My Website</h1>
+    </header>
+-->
+   
+    <nav class="desktopMenu">
+        <a href="#welcome">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
  
-    <nav>
-<a href="#">Home</a>
-<a href="#">About</a>
-<a href="#">Contact</a>
-</nav>
+    <nav class="mobileMenu">
+    </nav>
  
     <main>
  
-        <section>
-<h2>Welcome</h2>
-<p>This is the first section of the website.</p>
-</section>
+        <section id="welcome">
+            <h1>Welcome</h1>
+            <p>This is the first section of the website.</p>
+        </section>
  
-        <section>
-<h2>About</h2>
-<p>This section can contain information about the website.</p>
-</section>
+        <section id="about">
+            <h2>About</h2>
+            <p>This section can contain information about the website.</p>
+        </section>
  
-        <section>
-<h2>Contact</h2>
-<p>This section can contain contact information.</p>
-</section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>This section can contain contact information.</p>
+            <a class="cta" href="#">Contact Me</a>
+        </section>
  
     </main>
  
     <footer>
-<p>&copy; 2026 My Website</p>
-</footer>
+        <p>&copy; 2026 My Website</p>
+    </footer>
  
     <script src="script.js"></script>
  

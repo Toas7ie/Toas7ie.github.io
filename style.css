@@ -1,44 +1,106 @@
+ 
+/*
+project:
+programmer:
+LMD:
+*/
+/*
+=================================================
+copied code
+nav {
+  background: #333;
+ 
+  ul {
+  list-style: none;
+  }
+ 
+  li {
+  display: inline-block;
+  }
+ 
+  a {
+  color: white;
+  text-decoration: none
+ 
+    &:hover {  
+    text-decoration: underline;  
+    }  
+ 
+   }
+}
+=================================================
+*/
+:root {
+--primary:#f4f4f4; /*variable for the 60% color*/
+--secondary:#24445c; /*variable for the 30% color for headers and footers and section headings*/
+--accent:#f28c28; /*variable for the 10% color : links and buttons*/
+}
+ 
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: var(--primary);
 }
  
 header {
-    background-color: #4f6d7a;
+    background-color: #24445c;
     color: white;
     text-align: center;
     padding: 20px;
 }
  
+ 
 nav {
-    background-color: #6f8f9c;
+    background-color: var(--secondary);
     text-align: center;
-    padding: 15px;
+    padding: 2px 20px;
+    a:hover{
+    background-color: red;
+    color:aqua
+}
+
 }
  
 nav a {
+    margin-top: 40px;
     color: white;
     text-decoration: none;
     margin: 15px;
 }
+ 
  
 main {
     width: 80%;
     margin: 30px auto;
     background-color: white;
     padding: 20px;
-  }
+}
  
 section {
+   
     background-color: #e8f1f2;
     margin-bottom: 20px;
     padding: 20px;
 }
  
+.cta{
+ 
+background-color: var(--accent);
+color:white;
+padding: 10px 20px;
+&:hover{
+    background-color: yellow;
+    color: green;
+}
+
+}
+
+
+ 
 footer {
-    background-color: #4f6d7a;
+    background-color: var(--secondary);
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 3px;
 }
+ 
