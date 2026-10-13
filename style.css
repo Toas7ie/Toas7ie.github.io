@@ -88,12 +88,16 @@ section {
 background-color: var(--accent);
 color:white;
 padding: 10px 20px;
-&:hover{
+
+}
+
+.cta:hover{
     background-color: yellow;
+    font-size: xx-large;
     color: green;
 }
 
-}
+
 
 
  
