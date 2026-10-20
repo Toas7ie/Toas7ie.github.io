@@ -48,7 +48,14 @@ header {
     text-align: center;
     padding: 20px;
 }
+
+span{
  
+color:blue;
+font-size: 30px;
+ 
+ 
+}
  
 nav {
     background-color: var(--secondary);
