@@ -56,6 +56,19 @@ font-size: 30px;
  
  
 }
+
+table {
+  border: 3px solid #d13434;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 3px solid #1b183a;
+ 
+}
+ 
  
 nav {
     background-color: var(--secondary);
